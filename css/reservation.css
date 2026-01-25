@@ -9,10 +9,11 @@
   --text-champagne-color: #f6eac5;
   --border-color: #eee;
   --as-backgroud-color: #f7f7f7;
+  --icon-backgroud-color: #f0f0f0;
 }
 
 /* ////////////////////////////////////// */
-/* ABOUT HERO SECTION */
+/* HERO SECTION */
 /* ////////////////////////////////////// */
 
 .reservation-hero-section {
@@ -23,4 +24,65 @@
   height: 100%;
   padding: 260px 0px 190px 0px;
   position: relative;
+}
+
+/* ////////////////////////////////////// */
+/* CALL TO ACTION SECTION */
+/* ////////////////////////////////////// */
+
+.cta-action-section {
+  width: 100%;
+  z-index: 22;
+  margin: 0 auto;
+}
+.cta-action-container {
+  padding: 0 12px;
+  position: relative;
+  /* z-index: 22; */
+  margin-top: -99px;
+}
+
+.number-box {
+  background: var(--white-color);
+  padding: 1.875rem;
+  margin-bottom: 1.875rem;
+  border-radius: 23px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.cta-icon {
+  background: var(--icon-backgroud-color);
+  display: inline-block;
+  padding: 1.125rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.bi-geo-alt-fill,
+.bi-envelope-fill,
+.bi-telephone-fill {
+  color: var(--primery-color);
+  height: 1.375rem;
+  width: 1.375rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  color: var(--ass-black-color);
+}
+
+.tel-link:link,
+.tel-link:visited,
+.email-link:link,
+.email-link:visited,
+.contact-link:link,
+.contact-link:visited {
+  font-size: 15px;
+  color: var(--primery-color);
 }
