@@ -1,0 +1,26 @@
+/* color Top*/
+
+:root {
+  --primery-color: #22b3c1;
+  --secondery-color: #232223;
+  --white-color: #ffffff;
+  --text-color: #afafaf;
+  --ass-black-color: #2a2a2a;
+  --text-champagne-color: #f6eac5;
+  --border-color: #eee;
+  --as-backgroud-color: #f7f7f7;
+}
+
+/* ////////////////////////////////////// */
+/* ABOUT HERO SECTION */
+/* ////////////////////////////////////// */
+
+.reservation-hero-section {
+  background-image: url(../images/heading-bg-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 260px 0px 190px 0px;
+  position: relative;
+}

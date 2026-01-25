@@ -12,130 +12,6 @@
 }
 
 /* ////////////////////////////////////// */
-/* ABOUT HEADER SECTION */
-/* ////////////////////////////////////// */
-
-.about-header-section {
-  background: var(--primery-color);
-  height: 71px;
-  width: 100%;
-  padding: 0 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-
-  position: fixed;
-  z-index: 22;
-}
-.about-nav-logo {
-  width: 159px;
-  margin-left: 15px;
-}
-
-.about-btn-mobile-nav {
-  border: none;
-  background: transparent;
-  height: 3rem;
-  cursor: pointer;
-}
-.about-menu-button {
-  align-self: center;
-}
-
-/* ////////////////////////////////////// */
-/* ABOUT HERO SECTION */
-/* ////////////////////////////////////// */
-
-.about-hero-section {
-  margin-top: 70px;
-  background-image: url(../images/about-content-bg.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-  padding: 130px 0px 200px 0px;
-  position: relative;
-}
-.about-hero-container {
-  position: relative;
-  padding: 120px 60px;
-  margin: 0 12px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border-radius: 23px;
-}
-
-.blur-background {
-  background: url(../images/about-content-bg.jpg) no-repeat center fixed;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  filter: blur(8px) brightness(80%);
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* z-index: 1; */
-  border-radius: 23px;
-}
-
-.about-explore-header {
-  color: var(--white-color);
-  font-size: 20px;
-  font-weight: 400;
-  z-index: 2;
-  line-height: 24px;
-}
-
-.line-decoration {
-  content: "";
-  width: 100px;
-  height: 2px;
-  background: rgba(250, 250, 250, 0.3);
-  margin: 20px auto;
-  z-index: 2;
-}
-
-.about-welcome-header {
-  font-size: 50px;
-  color: var(--white-color);
-  z-index: 2;
-  margin-bottom: 25px;
-  line-height: 60px;
-}
-
-.about-welcome-text {
-  padding: 0px 5%;
-  color: var(--white-color);
-  font-size: 15px;
-  line-height: 30px;
-  z-index: 2;
-}
-
-.about-more {
-  position: relative;
-  z-index: 2;
-  margin-top: 30px;
-}
-.about-more-link {
-  color: var(--primery-color);
-  border: 1px solid var(--white-color);
-  background: var(--white-color);
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 25px;
-  font-weight: 500;
-  text-transform: capitalize;
-  letter-spacing: 0.5px;
-  transition: all 0.3s;
-  position: relative;
-}
-
-/* ////////////////////////////////////// */
 /* ABOUT HERO SECTION */
 /* ////////////////////////////////////// */
 
@@ -197,11 +73,11 @@
   white-space: nowrap;
 }
 
-.twon-picture .town-container-1:nth-child(2),
+/* .twon-picture .town-container-1:nth-child(2),
 .twon-picture .town-container-1:nth-child(3),
 .twon-picture .town-container-1:nth-child(4) {
-  /* display: none; */
-}
+  display: none;
+} */
 
 .town-container-1 {
   position: relative;
@@ -585,7 +461,7 @@
   background-image: url(../images/best-05.jpg);
 }
 
-.bi-bookmark-heart {
+.bi-bookmark-check {
   margin-left: 1rem;
   color: var(--primery-color);
   width: 20px;
@@ -596,7 +472,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.3rem;
 }
 
 .location-title h5 {
