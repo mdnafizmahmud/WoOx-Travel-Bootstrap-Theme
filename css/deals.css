@@ -159,7 +159,7 @@
   flex-direction: column;
 }
 
-.best-deals deals-item:nth-child(4) {
+.best-deals .deals-item:nth-child(4) {
   margin-bottom: 30px;
 }
 
