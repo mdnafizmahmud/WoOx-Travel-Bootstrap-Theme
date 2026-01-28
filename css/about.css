@@ -68,16 +68,9 @@
   display: flex;
   gap: 2rem;
   width: 100%;
-  /* flex-direction: column; */
   overflow-x: auto;
   white-space: nowrap;
 }
-
-/* .twon-picture .town-container-1:nth-child(2),
-.twon-picture .town-container-1:nth-child(3),
-.twon-picture .town-container-1:nth-child(4) {
-  display: none;
-} */
 
 .town-container-1 {
   position: relative;
@@ -99,7 +92,6 @@
   font-size: 20px;
   bottom: 30px;
   left: 30px;
-  /* transform: translateY(100%); */
 }
 
 /* ////////////////////////////////////// */
@@ -131,11 +123,6 @@
   color: #afafaf;
   text-align: center;
   margin-bottom: 80px;
-}
-
-.offer-price-container .offer-price:nth-child(2),
-.offer-price-container .offer-price:nth-child(3) {
-  /* display: none; */
 }
 
 /* div – ONLY this will scroll */
@@ -174,29 +161,26 @@
   transform: translateY(-50%);
 }
 
-.price {
+.price,
+.titel-price div {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.price {
+  justify-content: space-between;
   gap: 1.6rem;
 }
 
 .titel-info {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
+.titel-info,
 .titel-price {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.titel-price div {
-  display: flex;
-  align-items: center;
 }
 
 .bi-airplane-fill,
@@ -295,11 +279,7 @@
 }
 
 .offer-scroll-button button {
-  border: none;
   background: transparent;
-}
-
-.offer-scroll-button button svg {
   color: var(--primery-color);
   width: 46px;
   height: 46px;
@@ -308,6 +288,16 @@
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
+}
+
+.offer-scroll-button button:hover {
+  background-color: var(--primery-color);
+  color: var(--white-color);
+}
+
+.offer-scroll-button svg {
+  width: 36px;
+  height: 36px;
 }
 
 /* ////////////////////////////////////// */
