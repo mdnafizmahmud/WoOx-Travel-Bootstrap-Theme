@@ -30,7 +30,7 @@ body:not(.light) {
 }
 
 .hero-img {
-  background: url(/images/banner-01.jpg);
+  background: url(../images/banner-01.jpg);
   background-size: cover;
   width: inherit;
   height: inherit;
